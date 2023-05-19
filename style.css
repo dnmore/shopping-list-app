@@ -1,0 +1,76 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: black;
+  background-color: #eff6e0;
+}
+
+.container {
+  padding: 30px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+button {
+  font: inherit;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #94ddbc;
+  background-color: #94ddbc;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #78d5ab;
+}
+
+input {
+  font: inherit;
+  padding: 10px 20px;
+  width: 250px;
+  border-radius: 8px;
+  margin-right: 10px;
+  border: 2px solid #94ddbc;
+  background-color: #eff1f1;
+}
+
+input:focus {
+  outline: none;
+  background-color: #e6e9df;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  list-style-type: "💜";
+  cursor: pointer;
+}
+
+li button {
+  margin-left: 50px;
+}
+
+.line {
+  text-decoration-line: line-through;
+  list-style-type: "✔";
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 50px;
+  display: none;
+}
+
+.overlay p {
+  color: white;
+  margin: 0 auto;
+}
+

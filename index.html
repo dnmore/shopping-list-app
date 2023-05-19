@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Notes</title>
+  </head>
+  <body>
+    <aside class="overlay">
+      <p>
+        Empty field, please insert the product name
+        <button class="close">&#10060;</button>
+      </p>
+    </aside>
+
+    <div class="container">
+      <h1>Shopping List &#128722;</h1>
+      <input
+        type="text"
+        id="userinput"
+        name="userinput"
+        placeholder="Add new product"
+      />
+      <button id="add-product" class="btn">&#43; Add</button>
+      <button id="remove-all" class="btn">&#8722; Remove All</button>
+
+      <ul id="grid"></ul>
+    </div>
+  </body>
+</html>
